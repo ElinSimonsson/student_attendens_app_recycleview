@@ -5,9 +5,6 @@ object DataManager {
     init {
         createMockData()
     }
-
-    //
-    //
     fun createMockData() {
         students.add(Student("Eva", "AU20"))
         students.add(Student("Elin", "AU22", true))
